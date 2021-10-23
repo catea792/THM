@@ -95,8 +95,10 @@ void printAll()
 {
     node *temp;
     temp = head;
+    printf("-------------LIST ACCOUNT------------\n");
     while(temp)
     {
+    	
     	printf("%20s %20s %d",temp->username, temp->password, temp->status);
         printf("\n");
         temp=temp->next;
